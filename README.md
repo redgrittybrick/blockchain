@@ -209,7 +209,7 @@ I used them like this:
 
     blocks2csv | csvstats > stats.dat
 
-Then I ran Gnuplot and aksed it to `load gnuplot.plt`
+Then I ran Gnuplot and asked it to `load gnuplot.plt`
 
 ![Graph](graph.png)
 
