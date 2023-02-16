@@ -205,4 +205,28 @@ gnuplot.plt
 graph.png
 : Graph created by GNUplot
 
+I used them like this:
+
+    blocks2csv | csvstats > stats.dat
+
+Then I ran Gnuplot and aksed it to `load gnuplot.plt`
+
 ![Graph](graph.png)
+
+
+---
+
+Security Considerations
+-----------------------
+
+I know I'm trustworthy but you don't. Therefore, if you intend to use these
+programs it would be prudent to run them on a clean computer that is not
+connected to the network and which has no access to sensitive data.
+
+The programs only read the files you specify and don't write any files.
+These are command line programs.
+You can redirect their output to a file (or to a pipeline).
+
+The `.exe` programs have been compiled for 64-bit Microsoft Windows.
+
+
